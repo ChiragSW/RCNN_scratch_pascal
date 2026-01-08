@@ -1,4 +1,4 @@
-# Faster R-CNN Training Report
+# Faster R-CNN
 
 **Context & Key Numbers**
 - Model: Faster R-CNN with a ResNet50-FPN backbone (backbone used to increase acc).
@@ -48,3 +48,6 @@ What the run shows
   - Using a lighter backbone (MobileNetV2, EfficientNet-lite), or a single-stage detector (YOLO, SSD, RetinaNet).
   - Reducing input resolution at inference time (reduces accuracy for very small objects).
   - Post-training quantization (INT8) and pruning — these can reduce latency with modest accuracy loss if applied carefully.
+
+**Link to Video**
+https://drive.google.com/file/d/1whxdxrjAr0PDklQI44-poPF6Tb3KGOo4/view?usp=sharing
